@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
+
+.head{
+
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 10%;
+    left: 30%;
+    display: block;
+ 
+}
+h1{
+    margin-left: 170px;
+    color: blue;
+}
+.img{
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+    width: 200px;
+    margin-left: 200px;
+    
+}
+.lab label{
+    display: block;
+    color: blue;
+    margin-bottom: 20px;
+    font-size: 20px;
+    font-weight: 1000px;
+}
+.lab input{
+    display: block;
+    margin-bottom: 20px;
+    padding: 12px;
+    width: 150%;
+    border: 2px solid blue;
+
+}
+button{
+    display: inline-block;
+    border: none;
+    color: white;
+    padding: 12px 30px;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: 10px;
+    border-radius: 6px;
+}
+.generate{
+   
+   background-color: rgb(118, 199, 243);
+  }
+  .generate:load{
+    background-color: aliceblue;
+    cursor: not-allowed;
+  }
+  .generate:hover{
+    background-color: rgb(14, 14, 144) !important;
+  }
+  .download{
+   background-color: rgb(11, 239, 11);
+  }
+  .download:hover{
+background-color: green;
+  }
+p{
+    text-align: center;
+    margin-left: 200px;
+}    
+body {
+    background-image: url('./img/ff.png'); 
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+
+
